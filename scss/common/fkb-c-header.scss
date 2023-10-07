@@ -8,6 +8,11 @@
   }
 }
 
+.d-header {
+  background-image: linear-gradient(#2A3342, #2C2D49, #43008B)!important;
+
+}
+
 // Header buttons
 
 .d-header-icons {
@@ -20,7 +25,7 @@
     &:hover,
     &:focus,
     &:active {
-      background-image: linear-gradient(#2A3342, #2C2D49, #43008B);
+      background: transparent;
       .d-icon {
         color: var(--secondary-low);
       }
